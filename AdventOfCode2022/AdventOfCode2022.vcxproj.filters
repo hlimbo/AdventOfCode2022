@@ -20,12 +20,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Wicky\test_file.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
-    <Text Include="Wicky\part1.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Day1\CalorieCounting.h">
       <Filter>Header Files</Filter>
     </ClInclude>

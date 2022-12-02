@@ -14,5 +14,5 @@ namespace TestUtils {
     return "";
   }
 
-  static string TEST_DIRECTORY(GetDirectoryName(__FILE__));
+  static const string TEST_DIRECTORY(GetDirectoryName(__FILE__));
 }

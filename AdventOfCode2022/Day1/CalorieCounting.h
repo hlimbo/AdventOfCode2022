@@ -47,6 +47,7 @@ Find the Elf carrying the most Calories. How many total Calories is that Elf car
 #include <string>
 #include <iostream>
 #include <numeric>
+#include <algorithm>
 
 using namespace std;
 
@@ -78,7 +79,7 @@ public:
     return caloriePacks;
   }
 
-  int GetMaxCalories(vector<vector<int>> caloriePacks) {
+  int GetMaxCalories(const vector<vector<int>>& caloriePacks) {
     int maxCaloriesSum = 0;
     for (auto pack : caloriePacks) {
       int caloriesSum = accumulate(pack.begin(), pack.end(), decltype(pack)::value_type(0));
@@ -86,6 +87,33 @@ public:
     }
 
     return maxCaloriesSum;
+  }
+
+  vector<int> GetTop3Calories(vector<vector<int>> caloriePacks) {
+    // calculate all sums, store in a list, sort in descending order, grab the first 3 elements in the list...
+    // tradeoff - waste space when we could probably discard items in the list that are no longer part of the top 3 as we go through all sums...
+    // we could limit the number of sum calories to 3 and if we find a calorie sum either higher than the 1st, second, or third listings,
+    // remove the lowest one off the list and add the new one in
+    // sort the list in descending and remove last element in vector and add new one in vector
+    // m log m sort... where m is size of top3 calories
+
+    vector<int> top3Calories;
+    for (auto pack : caloriePacks) {
+      int caloriesSum = accumulate(pack.begin(), pack.end(), decltype(pack)::value_type(0));
+      if (top3Calories.size() < 3) {
+        top3Calories.push_back(caloriesSum);
+      }
+      else {
+        // descending order
+        sort(top3Calories.begin(), top3Calories.end(), greater<int>());
+        if (top3Calories[top3Calories.size() - 1] < caloriesSum) {
+          top3Calories.pop_back();
+          top3Calories.push_back(caloriesSum);
+        }
+      }
+    }
+
+    return top3Calories;
   }
 };
 
