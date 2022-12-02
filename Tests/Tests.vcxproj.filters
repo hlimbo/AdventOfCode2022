@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Day1\CalorieCountingTest.cpp">
+      <Filter>Day1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="TestUtils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Day1">
+      <UniqueIdentifier>{bbe4bd42-0f36-40ee-a858-e65cf88a50ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Day1\Files\small_input.txt" />
+    <Text Include="Day1\Files\part1.txt" />
+  </ItemGroup>
+</Project>
