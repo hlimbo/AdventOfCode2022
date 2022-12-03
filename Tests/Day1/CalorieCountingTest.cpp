@@ -42,6 +42,7 @@ TEST(CalorieCountingTest, Top3CaloriesInput) {
   auto caloriePacks = calorieCounting.ReadFile(FILE_PATH + "part1.txt");
   vector<int> top3Calories = calorieCounting.GetTop3Calories(caloriePacks);
 
+  // total: 198,551
   int expected[] = { 66719, 66339, 65493 };
   int arrayLength = sizeof(expected) / sizeof(int);
 

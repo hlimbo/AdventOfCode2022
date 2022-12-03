@@ -5,6 +5,7 @@
     <ClCompile Include="Day1\CalorieCountingTest.cpp">
       <Filter>Day1</Filter>
     </ClCompile>
+    <ClCompile Include="Day2\RockPaperScissorsTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -21,5 +22,7 @@
   <ItemGroup>
     <Text Include="Day1\Files\small_input.txt" />
     <Text Include="Day1\Files\part1.txt" />
+    <Text Include="Day2\Files\part1.txt" />
+    <Text Include="Day2\Files\small_input.txt" />
   </ItemGroup>
 </Project>
