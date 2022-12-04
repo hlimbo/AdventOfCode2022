@@ -26,5 +26,8 @@
     <ClInclude Include="Day2\RockPaperScissors.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Day3\RucksackReorganization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

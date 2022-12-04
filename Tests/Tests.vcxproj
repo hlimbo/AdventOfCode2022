@@ -39,6 +39,7 @@
   <ItemGroup>
     <ClCompile Include="Day1\CalorieCountingTest.cpp" />
     <ClCompile Include="Day2\RockPaperScissorsTest.cpp" />
+    <ClCompile Include="Day3\RucksackReorganizationTest.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -59,6 +60,8 @@
     <Text Include="Day1\Files\small_input.txt" />
     <Text Include="Day2\Files\part1.txt" />
     <Text Include="Day2\Files\small_input.txt" />
+    <Text Include="Day3\Files\part1.txt" />
+    <Text Include="Day3\Files\small_input.txt" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
