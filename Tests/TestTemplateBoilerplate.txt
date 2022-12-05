@@ -1,0 +1,25 @@
+#include "gtest/gtest.h"
+#include "../TestUtils.h"
+#include "Day4/CampCleanup.h"
+
+using namespace std;
+using namespace TestUtils;
+using namespace CampCleanup;
+
+const string FILE_PATH(TEST_DIRECTORY + "Day4/Files/");
+
+TEST(CampCleanupTest, SmallInputPart1) {
+  EXPECT_EQ(1, 0);
+}
+
+TEST(CampCleanupTest, Part1) {
+  EXPECT_EQ(1, 0);
+}
+
+TEST(CampCleanupTest, SmallInputPart2) {
+  EXPECT_EQ(1, 0);
+}
+
+TEST(CampCleanupTest, Part2) {
+  EXPECT_EQ(1, 0);
+}

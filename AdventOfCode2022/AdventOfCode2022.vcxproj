@@ -142,6 +142,7 @@
     <ClCompile Include="AdventOfCode2022.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Day4\CampCleanup.h" />
     <ClInclude Include="Day1\CalorieCounting.h" />
     <ClInclude Include="Day2\RockPaperScissors.h" />
     <ClInclude Include="Day3\RucksackReorganization.h" />
