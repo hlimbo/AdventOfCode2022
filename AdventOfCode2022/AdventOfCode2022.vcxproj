@@ -146,6 +146,7 @@
     <ClInclude Include="Day1\CalorieCounting.h" />
     <ClInclude Include="Day2\RockPaperScissors.h" />
     <ClInclude Include="Day3\RucksackReorganization.h" />
+    <ClInclude Include="Day5\SupplyStacks.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

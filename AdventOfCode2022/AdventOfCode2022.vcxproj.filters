@@ -32,5 +32,8 @@
     <ClInclude Include="Day4\CampCleanup.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Day5\SupplyStacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

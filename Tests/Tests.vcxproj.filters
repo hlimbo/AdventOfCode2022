@@ -8,6 +8,7 @@
     <ClCompile Include="Day2\RockPaperScissorsTest.cpp" />
     <ClCompile Include="Day3\RucksackReorganizationTest.cpp" />
     <ClCompile Include="Day4\CampCleanupTest.cpp" />
+    <ClCompile Include="Day5\SupplyStacksTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -31,5 +32,7 @@
     <Text Include="Day4\Files\part1.txt" />
     <Text Include="Day4\Files\small_input.txt" />
     <Text Include="TestTemplateBoilerplate.txt" />
+    <Text Include="Day5\Files\part1.txt" />
+    <Text Include="Day5\Files\small_input.txt" />
   </ItemGroup>
 </Project>
