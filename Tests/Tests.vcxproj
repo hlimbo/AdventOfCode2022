@@ -42,6 +42,7 @@
     <ClCompile Include="Day3\RucksackReorganizationTest.cpp" />
     <ClCompile Include="Day4\CampCleanupTest.cpp" />
     <ClCompile Include="Day5\SupplyStacksTest.cpp" />
+    <ClCompile Include="Day6\TuningTroubleTest.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -68,6 +69,8 @@
     <Text Include="Day4\Files\small_input.txt" />
     <Text Include="Day5\Files\part1.txt" />
     <Text Include="Day5\Files\small_input.txt" />
+    <Text Include="Day6\Files\part1.txt" />
+    <Text Include="Day6\Files\small_input.txt" />
     <Text Include="TestTemplateBoilerplate.txt" />
   </ItemGroup>
   <ItemDefinitionGroup />

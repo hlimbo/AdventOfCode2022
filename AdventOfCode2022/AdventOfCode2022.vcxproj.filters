@@ -35,5 +35,8 @@
     <ClInclude Include="Day5\SupplyStacks.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Day6\TuningTrouble.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
